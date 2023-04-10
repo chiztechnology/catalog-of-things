@@ -3,6 +3,7 @@ require_relative './classes/genre'
 require './modules/genre_module'
 require './modules/book_module'
 require './modules/label_module'
+require './modules/game_module'
 require './modules/author_module'
 require './modules/music_album_module'
 class App
@@ -10,6 +11,7 @@ class App
     include GenreModule
     include BookModule
     include LabelModule
+    include GameModule
     include AuthorModule
     include MusicAlbumModule
 
@@ -52,6 +54,7 @@ class App
     def load_data
         puts "loading data------------------"
         BookModule.load_books
+        GameModule.load_games
         MusicAlbumModule.load_music_album
         LabelModule.load_labels(BookModule.all_books, GameModule.all_games, MusicAlbumModule.all_albums)
         AuthorModule.load_authors(GameModule.all_games, BookModule.all_books, MusicAlbumModule.all_albums)
@@ -64,6 +67,7 @@ class App
         LabelModule.save_labels
         GenreModule.save_genre
         MusicAlbumModule.save_music_album
+        GameModule.save_games
         AuthorModule.save_authors
     end
 end
