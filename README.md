@@ -7,6 +7,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Video demo](#video-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -47,6 +48,11 @@ This catalog is a Ruby project built for saving music albums (genre, labels, gam
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Video Demo <a name ="video-demo"></a>
+
+> Click [on this link](https://drive.google.com/file/d/1nWVSdH2E1_AF5lb_be7yMA__1kOZxW79/view?usp=sharing) to see the video demo of this project
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
