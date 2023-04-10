@@ -1,7 +1,7 @@
 require_relative('app')
 class Main
   def menu
-    puts '**** Choose an Option ******'
+    puts '**** CHOOSE AN OPTION ******'
     puts '----------------------------'
     print("
         1   -   List Books
@@ -47,7 +47,7 @@ class Main
     gets.chomp
   end
 
-  # entry point
+  # App entry point
   def main
     option = -1
     app = App.new
@@ -62,7 +62,6 @@ class Main
     end
     # saving the data to JSON when exiting the app
     app.save_data
-    puts 'Thanks! See you next time'
   end
 end
 
