@@ -10,7 +10,7 @@ describe 'Test genre class' do
     expect(genre).to be_instance_of(Genre)
   end
 
-  it "genre name should be Hip hop" do
+  it 'genre name should be Hip hop' do
     expect(genre.name).to eql 'Hip hop'
   end
 
