@@ -70,6 +70,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   `git clone https://github.com/chiztechnology/catalog-of-things.git`
+  
   `cd TDD`
 
 
