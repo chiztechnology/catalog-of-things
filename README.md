@@ -70,7 +70,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   `git clone https://github.com/chiztechnology/catalog-of-things.git`
-  
+
   `cd TDD`
 
 
@@ -115,7 +115,7 @@ To run the tests, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Swarzstein/oop-school-library/issues).
+Feel free to check the [issues page](https://github.com/chiztechnology/catalog-of-things/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p
   
